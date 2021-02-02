@@ -1,0 +1,69 @@
+.white{color:white}
+.blue{color:blue}
+.weight{font-weight: bold;
+}
+body{background: rgb(0, 0, 0);
+color: white;}
+.size1{font-size: xxx-large;}
+.size2{font-size: larger;}
+ul li{color: blanchedalmond;}
+ol li{color: crimson;}
+table{color: white;}
+
+th{font-size: x-large;}
+header{font-size: 100px;}
+td{color:crimson;}
+fieldset{color: blanchedalmond;}
+.title{text-align: center}
+html{font-family:"Cormorant Garamond",serif;}
+ol{list-style-type: upper-roman;}
+.derecha{text-align: right;}
+.izquierda{text-align: left;}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+    text-align: center;   
+    list-style: none;
+    color: black;
+    background-color:rgba(255, 255, 255, 0.918);
+}
+.texto1{
+    background-color: rgb(6, 6, 80);
+    width: 1510px;
+    height: 500;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.texto2{
+    background-color:  rgb(187, 8, 44);
+    width: 1510px;
+    height: 100;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.integrantes{
+    display: grid;
+    grid-template-columns: 400px;
+    justify-items:left;
+    justify-content: space-between;
+    width: 12%;
+    font-size: 25px;
+}
+.integrante{
+    color: white; 
+    background-color: blue;
+    text-align: left;
+    padding-right: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
